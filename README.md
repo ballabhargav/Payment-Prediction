@@ -1,4 +1,8 @@
+
+
 # Payment Date Prediction 
+
+
 
 
 ### Importing related Libraries 
@@ -330,6 +334,8 @@ df.shape
 
 
 ### Checking the Detail information of the dataframe
+
+
 
 
 ```python
@@ -1208,6 +1214,7 @@ df.columns
 
 ### Showing all the Duplicate rows from the dataframe
 
+![output_111_1](https://github.com/ballabhargav/Payment-Prediction/assets/76163701/4a13fba2-4c87-4b61-bea0-241d3a55825a)
 
 ```python
 df.duplicated(keep='first')
@@ -2425,7 +2432,7 @@ maindata['avg_delay']
     Name: avg_delay, Length: 39158, dtype: float64
 
 
-
+![output_104_1](https://github.com/ballabhargav/Payment-Prediction/assets/76163701/d7401974-e371-4663-b2b4-2a269db1ecdd)
 ### Since you have created the "avg_delay" column from "Delay" and "clear_date" column, there is no need of these two columns anymore 
 
 - You are expected to drop "Delay" and "clear_date" columns from maindata dataframe 
@@ -2570,7 +2577,7 @@ Y.head()
     5    6.172800e+06
     Name: avg_delay, dtype: float64
 
-
+![output_170_1](https://github.com/ballabhargav/Payment-Prediction/assets/76163701/365bf199-a3e8-41ad-8c65-6ff03ccd2a4d)
 
 #### You are expected to split both the dataframes into train and test format in 60:40 ratio 
 
@@ -2910,7 +2917,7 @@ X_train.head()
 X_train.describe()
 ```
 
-
+![output_108_1](https://github.com/ballabhargav/Payment-Prediction/assets/76163701/5f5dd7b8-8cde-449f-8e4b-96b0bda417dd)
 
 
 <div>
@@ -3481,7 +3488,7 @@ X_train.dtypes,X_val.dtypes,X_test.dtypes
      month_of_due                int64
      year_of_due                 int64
      dtype: object)
-
+![output_104_1](https://github.com/ballabhargav/Payment-Prediction/assets/76163701/545ef616-5bf5-4d50-98fd-dfbeaf1c4688)
 
 
 # Feature Selection
